@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="styles/reset.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="styles/style.css" type="text/css" media="all"/>
+  </head>
+  <body>
+    <header class="nav-cont">
+      <h4 class="logo">Awesome Books</h4>
+      <ul class="menu">
+        <li class="menu-item"><a href="#" id="list" class="link-item">List</a></li>
+        <li class="menu-item"><a href="#" id="add-new" class="link-item">Add New</a></li>
+        <li class="menu-item"><a href="#" id="contact" class="link-item">Contact</a></li>
+      </ul>
+    </header>
+    <span class="date-item">2022-04-20</span>
+
+    <div class="sections">
+      <p class="welcome-msg">Add a new book to our library</p>
+      <section id="library-container" class="lib-cont">
+        <h1 class='title'>All awesome Books</h1>       
+      </section>        
+  
+      <section id="form" class="form-container">
+        <h1 class="title title-marg">Add a new book</h1>        
+            <input
+              id="title"
+              class="input-box"
+              name="title"
+              type="text"            
+              placeholder="Title"
+              required
+            />
+            <br>
+            <br>
+            <input
+              id="author"
+              class="input-box"
+              name="author"
+              type="text"
+              placeholder="Author"
+              required
+            />
+            <br>
+            <br>        
+            <button id="btn" class="sub-btn" type="submit">
+              Add
+            </button>
+      </section>
+      <section class="contact">
+        <h1 class="title title-marg">Contact Information</h1>
+        <div class="contact-cont">
+          <P>Do you have any questions or you just want to say "Hello"?</P>
+          <p>You can reach out to us:</p>
+          <ul class="contact-list">
+            <li>Our email: mail@mail.com</li>
+            <li>Our Phone Number : 0043586534422</li>
+            <li>Our Address: StreetName: 22,84503 City,Country</li>
+          </ul>
+        </div>   
+      </section>
+    </div>
+    
+
+    <footer class="footer">
+      Copyright...
+    </footer>
+    <script src="scripts/awesome_mod.js"></script>
+    
+  </body>
+</html>

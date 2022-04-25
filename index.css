@@ -1,0 +1,184 @@
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  margin: 1rem;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  padding: 0.5rem;
+  height: 3.8rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  padding: 0.5rem 1rem;
+}
+
+.menu .menu-item:nth-child(2) {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.link-item {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.link-item:focus {
+  color: #3c99dc;
+}
+
+/* .link-item:visited */
+
+.date-item {
+  font-size: 1.3rem;
+  align-self: flex-end;
+  margin-right: 1rem;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  height: 60vh;
+  justify-content: center;
+}
+
+.welcome-msg {
+  display: flex;
+  align-self: center;
+  font-size: 4rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.lib-cont {
+  display: none;
+  width: 50%;
+}
+
+.tmp-cont {
+  border: 3px solid #000;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.tmp-cont div:nth-child(odd) {
+  background-color: #b8b8b8;
+}
+
+.book-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.book-info {
+  font-size: 1.7rem;
+}
+
+.remove-btn {
+  box-shadow: 4px 5px #000;
+  border: 1px solid #000;
+  font-size: 1.7rem;
+}
+
+.remove-btn:hover {
+  cursor: pointer;
+}
+
+.form-container {
+  display: none;
+  width: 30%;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.input-box {
+  border: 3px solid #000;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.4rem;
+  box-sizing: border-box;
+}
+
+.sub-btn {
+  float: right;
+  box-shadow: 4px 5px #000;
+  border: 1px solid #000;
+}
+
+.sub-btn:hover {
+  cursor: pointer;
+}
+
+.contact {
+  align-self: stretch;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-cont {
+  font-size: 1.3rem;
+}
+
+.contact-list {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  list-style: circle;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3.8rem;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  padding: 0.5rem;
+}
+
+.title-marg {
+  margin-bottom: 4rem;
+}
