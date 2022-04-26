@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-(Not available))
+[live demo]( https://kinginthenorthcodez.github.io/Awesome-books-module/)
 
 ## Getting Started
 
