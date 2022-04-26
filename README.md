@@ -1,14 +1,15 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Awesome books: Using classes
 
 > We built a book library using JavaScript classes and used localStorage to save the data.
+> Refactored code for ES6
 
 
 ## Built With
 
 - HTML, and JavaScript.
 - GitHub
+- Modules
 
 ## Live Demo
 
